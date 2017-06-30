@@ -1,0 +1,17 @@
+
+
+.eventGrid{
+    display: 'flex';
+    flexWrap: 'wrap';
+    justifyContent: 'space-around'
+  }
+
+.gridList{
+    width: 500;
+    height: 450;
+    overflowY: 'auto'
+  }
+
+.header{
+  font-color: black;
+  font-size: 16px}
