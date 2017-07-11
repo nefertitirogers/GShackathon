@@ -1,6 +1,6 @@
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
@@ -27,14 +27,12 @@ render() {
              showMenuIconButton = {false}
            />
            <TextField
-             hintText="Enter your Username"
              floatingLabelText="Username"
              onChange = {(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
              <TextField
                type="password"
-               hintText="Enter your Password"
                floatingLabelText="Password"
                onChange = {(event,newValue) => this.setState({password:newValue})}
                />

@@ -1,6 +1,5 @@
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './Main.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';

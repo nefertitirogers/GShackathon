@@ -5,12 +5,7 @@
   align: center;
 }
 
-.dropMenu{
-  align: center;}
-
-.charityFoc {
+.userCate {
   text-align: left;
-  display: 'flex';
-  width: 25%;
-  margin-left: 42%;
-  }
+  align: center;
+}

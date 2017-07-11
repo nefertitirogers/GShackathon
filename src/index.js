@@ -7,6 +7,7 @@ import Login from './App';
 import Main from './Main';
 import Signup from './Signup';
 import EventPage from './EventPage';
+import VolunteerProf from './VolunteerProf';
 
 
 class Index extends Component {
@@ -25,9 +26,11 @@ class Index extends Component {
         case  "Login" :
               return(<Login onLoginSuccess={this.onLoginSuccess}/>);
         case "Signup":
-              return(<Signup />);
+              return(<Signup onSignUpSuccess={this.onSignUpSuccess}/>);
         case "EventPage":
               return(<EventPage />);
+        case "VolunteerProf":
+              return(<VolunteerProf />);
       }
   }
 
@@ -42,6 +45,11 @@ class Index extends Component {
   onLoginSuccess = () => {
     this.setState({page: "EventPage"});
   }
+
+  onSignUpSuccess = () => {
+    this.setState({page: "EventPage"});
+  }
+
 }
 
 ReactDOM.render(<Index />, document.getElementById('root'));

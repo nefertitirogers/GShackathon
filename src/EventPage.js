@@ -8,7 +8,7 @@ import './EventPage.css';
 
 const tilesData = [
   {
-    img: 'http://www.redcross.org/images/MEDIA_CustomProductCatalog/m13740097_nebraskavolunteer_514x260.jpg',
+    img: 'http://telemet.com/wp-content/uploads/2015/07/redcross2.jpg',
     title: 'Blood Drive',
     author: 'The Red Cross',
   },
@@ -18,7 +18,7 @@ const tilesData = [
     author: 'Habitat for Humanity',
   },
   {
-    img: 'https://s3.amazonaws.com/usc-cache.salvationarmy.org/8898b022-f835-4322-892a-c9a909201d1d_boyshield.jpg',
+    img: 'https://s3.amazonaws.com/usn-cache.salvationarmy.org/30bb76dd-9b2d-4660-b91d-c162c1bc64e3_christmas.jpg',
     title: 'Clothing Drive',
     author: 'The Salvation Army',
   },
@@ -33,7 +33,7 @@ const tilesData = [
     author: 'International Refugee Commitee',
   },
   {
-    img: 'https://sites.psu.edu/katiemarie/files/2014/08/doctors-without-borders.jpg',
+    img: 'https://donate.doctorswithoutborders.org/images/ecards/ephoto2.jpg?v=20151124',
     title: 'SLC Clinic',
     author: 'Doctors Without Borders',
   },
@@ -43,7 +43,7 @@ const tilesData = [
     author: 'World Wildlife Fund',
   },
   {
-    img: 'http://www.jeffbridges.com/images/march13/nokidhungry.png',
+    img: 'https://pbs.twimg.com/media/C3AYoaCXUAA6-np.jpg',
     title: 'Canned Food Drive',
     author: 'End Hunger Network',
   },
